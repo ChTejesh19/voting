@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Voter Eligibility Checker</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Voter Eligibility Checker</h1>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Eligibility</th>
+                </tr>
+            </thead>
+            <tbody id="voterTableBody">
+                <!-- New rows will appear here -->
+            </tbody>
+        </table>
+
+        <p class="message" id="message"></p>
+
+        <button onclick="checkVoter()">Check Another Voter</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
